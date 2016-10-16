@@ -15,6 +15,7 @@ RUN pip --no-cache-dir install \
 		scipy \
         jupyter \
         matplotlib \
+        pandas \
         && \
     python -m ipykernel.kernelspec
 
